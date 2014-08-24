@@ -1,0 +1,14 @@
+apply plugin: "io.ratpack.ratpack-groovy"
+
+buildscript {
+	repositories {
+		maven { url "http://oss.jfrog.org/repo" }
+	}
+	dependencies {
+		classpath "io.ratpack:ratpack-gradle:0.9.8-SNAPSHOT"
+	}
+}
+
+repositories {
+	maven { url "http://oss.jfrog.org/repo" }
+}
